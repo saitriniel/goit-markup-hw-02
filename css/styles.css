@@ -41,7 +41,8 @@ body {
     color: var(--primary-accent-color);
 }
 
-.page-nav-list {
+.page-nav-link,
+.page-menu-contacts-link {
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em
@@ -57,9 +58,6 @@ color: inherit;
 }
 
 .page-menu-contacts-link {
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
     color: var(--secondary-text-color-theme-light);
 }
 
@@ -81,6 +79,10 @@ color: var(--primary-text-color-theme-dark);}
     background-color: var(--primary-accent-color);
     color: var(--primary-text-color-theme-dark);
     cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
 }
 
 /*index-main-sections*/
@@ -111,8 +113,8 @@ color: var(--secondary-text-color-theme-light);
     background-color: var(--secondary-background-color-light);
 }
 
-.team-list-title {
-    font-weight: 500;
+.team-list-title, 
+.team-list-text {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -120,11 +122,11 @@ color: var(--secondary-text-color-theme-light);
 }
 
 .team-list-text {
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
     color: var(--secondary-text-color-theme-light);
+}
+
+.team-list-title {
+    font-weight: 500;
 }
 
 /*footer*/
