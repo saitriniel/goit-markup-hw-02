@@ -44,7 +44,7 @@ body {
 .nav-link,
 .menu-contacts-link {
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em
 }
 
@@ -69,7 +69,7 @@ color: inherit;
 
 .hero-title {font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--primary-text-color-theme-dark);}
@@ -80,7 +80,7 @@ color: inherit;
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     letter-spacing: 0.06em;
 }
 
@@ -88,14 +88,16 @@ color: inherit;
 
 .features-item-title {
     font-weight: 700;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color-theme-light);
 }
 
+
 .features-item {
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color-theme-light);
 }
@@ -103,7 +105,7 @@ color: inherit;
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
 }
 
@@ -114,7 +116,7 @@ color: inherit;
 .team-item-title, 
 .team-item-text {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;  
 }
 
@@ -126,6 +128,10 @@ color: inherit;
     font-weight: 500;
 }
 
+.link.current {
+    color: var(--primary-accent-color);
+}
+
 /*footer*/
 
 .footer {
@@ -134,7 +140,7 @@ color: inherit;
 
 .address-link {
     color: var(--primary-text-color-theme-dark);
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
@@ -156,6 +162,8 @@ color: inherit;
     letter-spacing: 0.03em;
     color: var(--primary-text-color-theme-light);
     background-color: var(--secondary-background-color-light);
+    font-family: inherit;
+    border: none;
 }
 
 
@@ -167,7 +175,7 @@ color: inherit;
 
 .filter-product-list-item {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.89;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color-theme-light);
 }
@@ -175,7 +183,7 @@ color: inherit;
 .filter-product-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color-theme-light);
 }
@@ -185,7 +193,7 @@ color: inherit;
 .logo {
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     font-family: var(--secondary-font);
 }
